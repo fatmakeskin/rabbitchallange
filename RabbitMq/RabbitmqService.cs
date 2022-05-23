@@ -15,7 +15,7 @@ namespace RabbitMq
         {
             ConnectionFactory factory = new ConnectionFactory()
             {
-                HostName = _hostName
+                Uri=new Uri("amqp://guest:guest@localhost:5672")
             };
             return factory.CreateConnection();
         }

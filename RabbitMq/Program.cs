@@ -6,7 +6,7 @@ namespace RabbitMq
     {
         static void Main(string[] args)
         {
-            Consumer consumer = new Consumer("fatma;)");
+            Consumer consumer = new Consumer("fatma");
 
             Console.ReadKey();
             
